@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <title>MercadoLiebre</title>
+</head>
+<body>
+    <header class="container-header">
+        <div class="header-logo-input">
+            <img class="header-logo" src="/img/logo-mercado-liebre.svg" alt="Logo marca">    
+                <div class="header-buscador">
+                    <input class="header-barrabusqueda" type="search" name="buscador"/>
+                    <i class="fas fa-search"></i>
+                </div>
+        </div>
+            <p class="header-descripcion">Comprá en cuotas y sin tarjeta de crédito</p>
+            <div class="icono-menu"><i class="fas fa-bars imenu"></i></div>
+    </header>
+<main>
+    <form class="container-login">
+            <input type="nombre" placeholder="nombre..." name="nombre" id="nombre">
+            <input type="usuario" placeholder="Usuario..." name="usuario" id="usuario">
+            <input type="email" placeholder="Email..." name="email" id="email">
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <input type="domicilio" placeholder="Domicilio..." name="domicilio" id="domicilio">
+    </form>
+            <article class="perfil">Perfil del usuario</article>
+    <form class="container-login-perfil">    
+            <p><input type="radio" name="perfil" value="comprador">Comprador</p>
+            <p><input type="radio" name="perfil" value="vendedor">Vendedor</p>
+    </form>
+        <article class="intereses">Intereses</article>
+    <form class="container-login-intereses">
+            <p><input type="radio" name="Intereses" value="Electro">Electro</p>
+            <p><input type="radio" name="Intereses" value="Moda">Moda</p>
+            <p><input type="radio" name="Intereses" value="Hogar">Hogar</p>
+            <p><input type="radio" name="Intereses" value="Jugueteria">Jugueteria</p>
+            <p><input type="radio" name="Intereses" value="Vida sana">Vida sana</p>   
+    </form>
+    <form class="container-login">   
+            <article>Elegí tu foto de usuario</article>
+            <input type="file" accept="" name="imagen" value="imagen">
+            <input type="password" placeholder="contraseña..." name="password" id="password">
+            <input type="password" placeholder="validar contraseña..." name="validar-password" id="validar-password">
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+    </form>
+</main>
+    <footer class="footer">
+        <div class="footer-info">
+                <i class="fas fa-credit-card"></i>
+                <article>Pagá con tarjeta o en efectivo</article>
+                <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
+                    pago. ¡Y siempre es seguro!</p>
+        </div>
+        <div class="footer-info">        
+                <i class="fas fa-truck"></i>
+                <article>Envío gratis desde los $ 2.500</article>
+                <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de MercadoPuntos.</p>
+        </div>
+        <div class="footer-info">
+                <i class="fas fa-shield-alt"></i>
+                <article>Seguridad, de principio a fin</article>
+                <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+                    porque estás siempre protegido.</p>
+        </div>
+        <div class="copyright"><p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p></div>
+            
+    </footer>
+</body>

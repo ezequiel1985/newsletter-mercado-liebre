@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header start*/
+.container-header {
+    background:#ffe600;
+}
+.header-logo-input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+.header-logo{ width: 50%; }
+
+.header-buscador{
+width: 50%;
+height: 20px;
+margin: 2px;
+}
+
+.imenu{
+    background: blue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.icono-menu{     text-align: center;}
+
+.header-descripcion {
+    font-size: 12px;
+}
+
+/*Header end*/
+
+.banner{    display: block;     width: 100%; }
+    
+main { background: #e7e7e7; width: 100%;}
+
+.lista {     font-size: 20px;     font-family: 'Roboto', sans-serif; }
+
+/*ultima visita start*/
+
+.container-ultima-visita{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+.ultima-visita-titulo{     margin: 12px 0px; font-weight: 600; opacity: 0.4;}
+
+.container-ultima-visita-producto{ background: white; margin: 10px auto;}
+
+p.precio {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-left: 10px;
+    border-top: #e7e7e7 solid 1px;
+}
+.off{
+    color: #00a650;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+.producto {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 20px auto;
+    margin-left: 10px;
+}
+/*ultima visita end*/
+
+/*Login and register start*/
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+}
+.container-login input{
+    width: 72%;
+    margin: 15px auto;
+    border-radius: 6px;
+    border-color: white;
+    padding: 3px;
+}
+.container-login button{
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 3px ;
+    background: blue;
+    color: white;
+    border-radius: 6px;
+    border-color: blue;
+}
+.perfil {
+    margin-left: 30px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.container-login-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 15px;
+}
+
+.intereses {
+    margin-left: 30px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.container-login-intereses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 15px;
+}
+.container-login-intereses p{
+    margin: 15px 10px;
+}
+.container-login-intereses p input{
+    margin-right: 20px;
+}
+
+/*Login and register end*/
+/*Footer start*/
+.footer{
+    background-color:#e7e7e7;
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin: 5px;
+}
+.footer-info i{
+    margin: 5px 5px;
+}
+.footer-info article{
+    margin: 5px 5px;
+    font-weight: 600;
+}
+.footer-info p{
+    margin: 5px 5px;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+/*Footer end*/
